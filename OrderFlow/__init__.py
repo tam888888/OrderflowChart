@@ -465,4 +465,4 @@ class OrderFlowChart():
             return fig
 
         # Show figure
-        fig.show(config=config)
+        fig.show(config=config,renderer='iframe')
